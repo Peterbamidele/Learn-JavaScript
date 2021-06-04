@@ -1,0 +1,9 @@
+===JavaScript===
+==JavaScript is programming or a scripting langague that allow the implementation of feature on webs pages.
+
+==Lookin back==
+To understand JavaScript, we can look back at what already know.
+
+Hypertext Markup Langague(HTML) elements are the building blocks of web pages.
+Cascading Style Sheet (CSS) is used for designinig HTML elements.
+JavaScript is what implements the features of web pages.

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Change color element</title>
+</head>
+<body>
+    <div onclick ="changeColor(this)" style="background-color: red;">
+        Tap me to change my color!
+    </div>
+
+    <script>
+        function changeColor(element){
+            var currentColor = element.style.backgroundColor;
+            if(currentColor == "red"){
+                element.style.backgroundColor = "green";
+            } else {
+                element.style.backgroundColor= "red";
+            }
+        }
+    </script>
+    
+</body>
+</html>

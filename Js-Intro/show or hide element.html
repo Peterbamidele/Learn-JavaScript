@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript can show or hide html elements </title>
+</head>
+<body>
+    <h1  > JavaScript can show or hide html elements </h1>
+    <div id="demo3" style="width: 200px; height: 200px; background-color: burlywood;">Hello beatuful</div>
+    <button type="button" onclick="show()">Show</button>
+    <button type="button" onclick="hide()">Hide</button>
+
+    <script>
+        function show(){
+            document.getElementById("demo3").style.display = "block";
+        }
+        function hide(){
+            document.getElementById("demo3").style.display = "none";
+        }
+    </script>
+</body>
+</html>

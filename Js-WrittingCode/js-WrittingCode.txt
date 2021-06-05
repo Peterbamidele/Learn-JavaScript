@@ -1,0 +1,36 @@
+=====Writting JavaScript Code=====
+JavaScript codes should be Writtien inside the <script> element.
+<script>
+    documnent.Write("How are you");
+</script>
+==Where shhould the <script> element be?
+1. Internal JavaScript
+The <script> element can either be placed in the <head>, in the <body> or both.
+JavaScript in the <head>
+you can put <script> in the <head> element.
+It is recommended to put the <script> before the </head> closing tag.
+
+II.JavaScript in the <Body>
+you put <script> inside the <body> element.
+--it recommended to put the <script> before the </body> closing tag.
+
+
+========Where should you put <script> inside the <head> or the <body>===========
+What the difference?
+==When the <script> is inside the <head>, it loads first before the content of the page.
+
+==When it's inside the <body>, it loads after the content of the page (Html element) loads. 
+
+
+=====External JavaScript
+JavaScript can also be placed in External files.
+
+JavaScript files have the file name extension of .Js.
+--script.Js
+
+Using external script files is beneficial when multiple wen pages use the same script.
+
+It also orginizes codes and help maintain
+readabilty as JavaScript is seprated from HTML.
+
+==External script in the <head>.

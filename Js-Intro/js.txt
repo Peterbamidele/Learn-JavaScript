@@ -1,4 +1,4 @@
-===JavaScript===
+git===JavaScript===
 ==JavaScript is programming or a scripting langague that allow the implementation of feature on webs pages.
 
 ==Lookin back==
@@ -7,3 +7,39 @@ To understand JavaScript, we can look back at what already know.
 Hypertext Markup Langague(HTML) elements are the building blocks of web pages.
 Cascading Style Sheet (CSS) is used for designinig HTML elements.
 JavaScript is what implements the features of web pages.
+
+==== HTML is used to create the button.Then CSS is used to design it.Finally, JavaScript is used to add 
+a simple function that show a dislog box, when the button is clicked.
+
+===============what can JavaScript do ?==============
+1.===It can change the content of HTML elements
+
+function myFunc(){
+    documnent.getElementById("demo").innerHTML = "Hello Everyone!";
+}
+
+2.===Can change the value of attribute.
+    --the value of the scr attribute is changed.
+
+function myFunc(){
+    documnent.getElementById("image").scr = "images/star.png!";
+}
+
+3. ===change the Styling of HTML elements.
+
+function myFunc(){
+    documnent.getElementById("demo").Style.color = "green";
+     documnent.getElementById("demo").Style.FontWeight = "bold";
+      documnent.getElementById("demo").Style.color = "300%"
+}
+4.====feature that can show or hide html elements.
+
+function myFunc(){
+    documnent.getElementById("image").Style.display = block";
+}
+function myFunc(){
+    documnent.getElementById("demo").Style.display = "none";
+}
+
+
+
